@@ -1,0 +1,24 @@
+RISEN TWEAKS V3.0.0
+- Neu: Tweak Library (14 Kategorien) mit Apply/Undo/Status/Backup/Verifikation, alle Tweaks nur HKCU.
+- Neu: Network Lab (Ping/Jitter/Verlust, Gateway, DNS-Zeit, Epic-TCP, Download/Upload, Adapter/LAN-Status).
+- Neu: Fortnite Live-Messung ueber PresentMon (FPS, Frametime, 1% Low, 0,1% Low, Ruckler), Hintergrundlast.
+- Neu: Autostart-Verwaltung (Umschalten wie im Task-Manager, nichts wird geloescht).
+- Neu: Sidebar-Tooltips, GPU-Takt, CPU-Takt, RAM-Modul-Takt (DOCP-Hinweis), CPU-Temperatur ehrlich als N/A.
+- Fix: Jitter war max-min, jetzt mittlere Differenz aufeinanderfolgender Pings; Paketverlust zaehlt gesendete Pings.
+- Fix: Mausbeschleunigung wird sofort uebernommen (SystemParametersInfo), alte Werte per Undo.
+- Aenderung: Alte Windows-Tweaks laufen ueber die neue Engine (ein einheitliches Backup-System).
+- Build: robuster Workflow (findet Projektordner, Tests, EXE-Selbsttest).
+
+RISEN TWEAKS V2.0.0
+- Neue dunkle Oberfläche mit schmaler Icon-Seitenleiste und großen Gruppen-/Aktionenkarten.
+- Seiten für Home, Windows Tweaks, Performance, Cleanup, GPU Optimization, Fortnite,
+  Processes, Hardware und Tools.
+- Hardware-Erkennung über Windows CIM/PowerShell und psutil.
+- NVIDIA-SMI Telemetrie, wenn Treiber und Tool verfügbar sind.
+- Prozesssuche, CPU-/RAM-Sortierung und bestätigtes Beenden ausgewählter Prozesse.
+- Fortnite-Priorität HOCH/NORMAL, Config-Ordner, Epic Launcher und Netzwerkdiagnose.
+- Sichere, gesicherte Benutzer-Registry-Tweaks: Game Mode, Game DVR, VisualFXSetting,
+  Windows-Mausbeschleunigung.
+- Energieplanwechsel mit Sicherung des vorherigen Plans.
+- Temp-Cleanup, DNS-Cache, Autostart-Übersicht, Geräteübersicht, Systembericht.
+- Restore-Funktion für gespeicherte Registry-Werte und Energieplan.
